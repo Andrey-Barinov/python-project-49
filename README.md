@@ -7,3 +7,6 @@ https://asciinema.org/a/oJEFIWfCwEJAj1TE8IWg2EuE6
 
 demo game brain-calc:
 https://asciinema.org/a/usxe2DvI0r3tygHNDBdOJZdqg
+
+demo game brain_gcd:
+https://asciinema.org/a/QGImvkjK4PCSn4SpVQbG6dYbw
