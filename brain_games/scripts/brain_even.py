@@ -4,7 +4,7 @@ import sys
 sys.path.append("/home/barbpro/project1/python-project-49/brain_games/")
 
 import prompt
-from brain_even_game import ask_is_num_even
+from games.brain_even_game import ask_is_num_even
 
 
 def main():
@@ -16,11 +16,11 @@ def main():
 
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
-    ask_is_num_even()
+    ask_is_num_even(user_name)
 
-    ask_is_num_even()
+    ask_is_num_even(user_name)
 
-    ask_is_num_even()
+    ask_is_num_even(user_name)
 
     print(f"Congratulations, {user_name}!")
 

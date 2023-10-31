@@ -16,11 +16,11 @@ def main():
 
     print("What is the result of the expression?")
 
-    solve_exp()
+    solve_exp(user_name)
 
-    solve_exp()
+    solve_exp(user_name)
 
-    solve_exp()
+    solve_exp(user_name)
 
     print(f"Congratulations, {user_name}!")
 

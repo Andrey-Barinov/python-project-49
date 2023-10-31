@@ -1,10 +1,8 @@
 import prompt
 from random import randint
 
-user_name = ''
 
-
-def ask_is_num_even():
+def ask_is_num_even(user_name):
     random_number = randint(1, 100)
 
     print(f"Question: {random_number}")
