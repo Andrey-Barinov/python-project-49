@@ -13,7 +13,7 @@ def main():
 
     print(f"Hello, {user_name}!")
 
-    print("What is the result of the expression?")
+    print("What number is missing in the progression?")
 
     ask_to_find_num(user_name)
 
