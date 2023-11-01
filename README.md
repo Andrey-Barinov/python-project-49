@@ -10,3 +10,6 @@ https://asciinema.org/a/usxe2DvI0r3tygHNDBdOJZdqg
 
 demo game brain_gcd:
 https://asciinema.org/a/QGImvkjK4PCSn4SpVQbG6dYbw
+
+demo game brain_progr:
+https://asciinema.org/a/wEhiUlM49ZNRMRVv8D4AyIemV
