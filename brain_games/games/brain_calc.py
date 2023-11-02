@@ -13,7 +13,7 @@ def solve_exp(user_name):
 
     result_of_exp = eval(str(random_num1) + random_op + str(random_num2))
 
-    print(f"Question: {random_num1}{random_op}{random_num2}")
+    print(f"Question: {random_num1} {random_op} {random_num2}")
 
     answer = prompt.string("Your answer: ")
 
