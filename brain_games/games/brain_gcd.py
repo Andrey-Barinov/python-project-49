@@ -20,7 +20,7 @@ def ask_to_find_gcd(user_name):
 
     gcd = find_gcd(random_num1, random_num2)
 
-    print(f"Question:{random_num1} {random_num2}")
+    print(f"Question: {random_num1} {random_num2}")
 
     answer = prompt.string("Your answer: ")
 
