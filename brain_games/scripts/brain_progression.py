@@ -4,7 +4,7 @@ from games.brain_progression import ask_to_find_num
 
 
 def main():
-    print("Welcome to the Brain Games")
+    print("Welcome to the Brain Games!")
 
     user_name = prompt.string("May I have your name? ")
 

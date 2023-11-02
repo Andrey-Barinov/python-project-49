@@ -4,7 +4,7 @@ from games.brain_even_game import ask_is_num_even
 
 
 def main():
-    print("Welcome to the Brain Games")
+    print("Welcome to the Brain Games!")
 
     user_name = prompt.string("May I have your name? ")
 
