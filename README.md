@@ -8,8 +8,11 @@ https://asciinema.org/a/oJEFIWfCwEJAj1TE8IWg2EuE6
 demo game brain-calc:
 https://asciinema.org/a/usxe2DvI0r3tygHNDBdOJZdqg
 
-demo game brain_gcd:
+demo game brain-gcd:
 https://asciinema.org/a/QGImvkjK4PCSn4SpVQbG6dYbw
 
-demo game brain_progr:
+demo game brain-progr:
 https://asciinema.org/a/wEhiUlM49ZNRMRVv8D4AyIemV
+
+demo game brain-prime:
+https://asciinema.org/a/stKkIL8x5fUlCu2SGkcgkDwJv
