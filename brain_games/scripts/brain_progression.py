@@ -1,7 +1,4 @@
-import sys
-
-sys.path.append("/home/barbpro/project1/python-project-49/brain_games/")
-
+#!/usr/bin/env python3
 import prompt
 from games.brain_progression import ask_to_find_num
 

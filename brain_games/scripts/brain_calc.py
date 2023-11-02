@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-import sys
-
-sys.path.append("/home/barbpro/project1/python-project-49/brain_games/")
-
 import prompt
 from games.brain_calc import solve_exp
 
