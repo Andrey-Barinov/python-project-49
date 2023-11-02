@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import prompt
-from games.brain_gcd import ask_to_find_gcd
+from brain_games.games.brain_gcd import ask_to_find_gcd
 
 
 def main():

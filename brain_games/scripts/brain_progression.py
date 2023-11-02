@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import prompt
-from games.brain_progression import ask_to_find_num
+from brain_games.games.brain_progression import ask_to_find_num
 
 
 def main():

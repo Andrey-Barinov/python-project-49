@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import prompt
-from games.brain_calc import solve_exp
+from brain_games.games.brain_calc import solve_exp
 
 
 def main():

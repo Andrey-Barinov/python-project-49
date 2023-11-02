@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import prompt
-from games.brain_prime import ask_is_num_prime
+from brain_games.games.brain_prime import ask_is_num_prime
 
 
 def main():

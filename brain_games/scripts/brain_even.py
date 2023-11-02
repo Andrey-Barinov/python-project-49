@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import prompt
-from games.brain_even_game import ask_is_num_even
+from brain_games.games.brain_even_game import ask_is_num_even
 
 
 def main():
