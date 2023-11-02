@@ -3,16 +3,16 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/30bd9796eb9b9519977d/maintainability)](https://codeclimate.com/github/Andrey-Barinov/python-project-49/maintainability)
 
 demo game brain-even:
-https://asciinema.org/a/oJEFIWfCwEJAj1TE8IWg2EuE6
+https://asciinema.org/a/ExwTNMmJRgtvPhNd4HkST0934
 
 demo game brain-calc:
-https://asciinema.org/a/usxe2DvI0r3tygHNDBdOJZdqg
+https://asciinema.org/a/6W2VOAfu2PKPJLZjAn7eVOzMB
 
 demo game brain-gcd:
-https://asciinema.org/a/QGImvkjK4PCSn4SpVQbG6dYbw
+https://asciinema.org/a/G3xLNrkCgBLxZnMhi7bdZpgRR
 
-demo game brain-progr:
-https://asciinema.org/a/wEhiUlM49ZNRMRVv8D4AyIemV
+demo game brain-progression:
+https://asciinema.org/a/0W4gVcmgM83tObnruKUt3Dhcx
 
 demo game brain-prime:
-https://asciinema.org/a/stKkIL8x5fUlCu2SGkcgkDwJv
+https://asciinema.org/a/Ol8ckeWWSMiHFl9diDwkx980L
