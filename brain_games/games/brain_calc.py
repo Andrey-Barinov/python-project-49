@@ -1,31 +1,25 @@
-import prompt
 from random import randint, choice
 
 
-def solve_exp(user_name):
-    ops = ["+", "-", "*"]
+def calculate(num1, op, num2):
+    res = eval(str(num1) + op + str(num2))
+    return res
 
-    random_op = choice(ops)
 
+game_task = "What is the result of the expression?"
+
+
+def game_round():
     random_num1 = randint(1, 20)
 
     random_num2 = randint(1, 20)
 
-    result_of_exp = eval(str(random_num1) + random_op + str(random_num2))
+    ops = ["+", "-", "*"]
 
-    print(f"Question: {random_num1} {random_op} {random_num2}")
+    random_op = choice(ops)
 
-    answer = prompt.string("Your answer: ")
+    question = f"Question: {random_num1} {random_op} {random_num2}"
 
-    if answer == str(result_of_exp):
-        print("Correct!")
+    correct_answer = str(calculate(random_num1, random_op, random_num2))
 
-    else:
-        print(
-            f"{answer} is wrong answer ;(."
-            f"Correct answer was {result_of_exp}."
-        )
-
-        print(f"Let's try again, {user_name}!")
-
-        exit()
+    return question, correct_answer
