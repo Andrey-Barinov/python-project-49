@@ -1,39 +1,18 @@
-import prompt
 from random import randint
 
 
-def ask_is_num_even(user_name):
-    random_number = randint(1, 100)
+def is_even(num):
+    return num % 2 == 0
 
-    print(f"Question: {random_number}")
 
-    answer = prompt.string("Your answer: ")
+game_task = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-    if answer == "yes":
-        if random_number % 2 == 0:
-            print("Correct!")
 
-        else:
-            print("'yes' is wrong answer ;(. Correct answer was 'no'.")
+def game_round():
+    random_num = randint(1, 100)
 
-            print(f"Let's try again, {user_name}!")
+    question = f"Question: {random_num}"
 
-            exit()
+    correct_answer = "yes" if is_even(random_num) else "no"
 
-    elif answer == "no":
-        if random_number % 2 != 0:
-            print("Correct!")
-
-        else:
-            print("'no' is wrong answer ;(. Correct answer was 'yes'")
-
-            print(f"Let's try again, {user_name}!")
-
-            exit()
-
-    else:
-        print("incorrect answer! You should write 'yes' or 'no'.")
-
-        print(f"Let's try again, {user_name}!")
-
-        exit()
+    return question, correct_answer
