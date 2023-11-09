@@ -13,7 +13,7 @@ def run(game):
     for round in range(1, 4):
         (question, correct_answer) = game.game_round()
 
-        print(f"Question: {question}")
+        print(question)
 
         answer = prompt.string("Your answer: ")
 
