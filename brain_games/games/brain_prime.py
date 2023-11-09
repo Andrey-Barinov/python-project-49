@@ -1,56 +1,25 @@
-import prompt
 from random import randint
 
 
-def is_prime(num):
-    if num in [
-        2,
-        3,
-        5,
-        7,
-        11,
-        13,
-        17,
-        19,
-        23,
-        29,
-        31,
-        37,
-        41,
-        43,
-        47,
-        53,
-        59,
-        61,
-        67,
-        71,
-        73,
-        79,
-        83,
-        89,
-        97,
-    ]:
-        return "yes"
-    else:
-        return "no"
+def is_prime(number):
+    if number == 1:
+        return False
+
+    for i in range(2, int(number**0.5) + 1):
+        if number % i == 0:
+            return False
+
+    return True
 
 
-def ask_is_num_prime(user_name):
+game_task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
+def game_round():
     random_num = randint(1, 100)
 
-    right_answer = is_prime(random_num)
+    question = f"Question: {random_num}"
 
-    print(f"Question: {random_num}")
+    correct_answer = "yes" if is_prime(random_num) else "no"
 
-    answer = prompt.string("Your answer: ")
-
-    if answer == right_answer:
-        print("Correct!")
-
-    else:
-        print(f"{answer} is wrong answer ;(."
-              f"Correct answer was {right_answer}.")
-
-        print(f"Let's try again, {user_name}!")
-
-        exit()
+    return question, correct_answer
