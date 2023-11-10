@@ -1,11 +1,11 @@
 from random import randint
 
 
+GAME_TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
 def is_even(num):
     return num % 2 == 0
-
-
-game_task = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def game_round():

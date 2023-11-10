@@ -1,6 +1,9 @@
 from random import randint
 
 
+GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
 def is_prime(number):
     if number == 1:
         return False
@@ -10,9 +13,6 @@ def is_prime(number):
             return False
 
     return True
-
-
-game_task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def game_round():

@@ -1,12 +1,12 @@
 from random import randint, choice
 
 
+GAME_TASK = "What is the result of the expression?"
+
+
 def calculate(num1, op, num2):
     res = eval(str(num1) + op + str(num2))
     return res
-
-
-game_task = "What is the result of the expression?"
 
 
 def game_round():

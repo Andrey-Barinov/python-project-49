@@ -1,5 +1,7 @@
 from random import randint
 
+GAME_TASK = "What number is missing in the progression?"
+
 
 def generate_progr(start, generator):
     progression = [str(start)]
@@ -20,9 +22,6 @@ def generate_progr(start, generator):
         i += 1
 
     return progression
-
-
-game_task = "What number is missing in the progression?"
 
 
 def game_round():
