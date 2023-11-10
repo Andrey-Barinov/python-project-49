@@ -8,7 +8,7 @@ def run(game):
 
     print(f"Hello, {user_name}!")
 
-    print(f"{game.game_task}")
+    print(f"{game.GAME_TASK}")
 
     for round in range(1, 4):
         (question, correct_answer) = game.game_round()
